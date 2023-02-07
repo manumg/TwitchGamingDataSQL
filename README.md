@@ -1,4 +1,8 @@
-Project analyzing Twitch streaming and chat statistics
+Project analyzing Twitch streaming statistics.  
+
+The aim of this project is to analyze a large dataset from the year 2015 of views on twitch. We will try to look at the most viewed games, location statistics and viewership distribution during the day.
+
+In this project I use SQL to querry some statistics that I will later use in python to create some graphs with Matplotlib.
 
 DATASETS USED IN THIS PROJECT:
 
