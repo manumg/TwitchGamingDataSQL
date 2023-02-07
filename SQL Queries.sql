@@ -69,10 +69,17 @@ GROUP BY 1
 ORDER BY 3 DESC;
 
 --8.Let's see how the number of spectators is distributed at different times of the day in Spain:
+
 SELECT strftime('%H', time),
    COUNT(*)
 FROM stream
 WHERE country = 'ES'
+GROUP BY 1;
+
+--For all the world would be:
+SELECT strftime('%H', time),
+   COUNT(*)
+FROM stream
 GROUP BY 1;
 
 --9. Joining the stream and chat datasets
